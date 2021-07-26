@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:BehaviorsTest"
+             xmlns:b="clr-namespace:Real.Xamarin.Forms.Extensions.Behaviors;assembly=RealXamarinFormsExtensions.Behaviors"
+             x:Class="BehaviorsTest.MainPage"
+             Title="First Page">
+    <ContentPage.BindingContext>
+        <local:MainPageVM/>
+    </ContentPage.BindingContext>
+    <ContentPage.Behaviors>
+        <b:Interaction EventName="Appearing" Command="{ Binding OnPageAppearing }"/>
+        <b:Interaction EventName="Disappearing" Command="{ Binding OnPageDisappearing }" />
+    </ContentPage.Behaviors>
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Welcome to Xamarin.Forms!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+        <Button Text="Next Page" Command="{ Binding OnNavigate }" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+    </StackLayout>
+</ContentPage>

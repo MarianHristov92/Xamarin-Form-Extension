@@ -6,18 +6,18 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{333F7E4D-4615-4DEA-8CF0-A7F855347AA8}</ProjectGuid>
     <Description>Provides advanced logging support.</Description>
-    <PackageId>RealXamarinFormsExtensions.Logging</PackageId>
+    <PackageId>XFExtensions.Logging</PackageId>
     <PackageVersion>1.1.3</PackageVersion>
-    <Authors>real GmbH</Authors>
+    <Authors>Marian Hristov</Authors>
     <DevelopmentDependency>false</DevelopmentDependency>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <OutputType>Exe</OutputType>
-    <RootNamespace>RealXamarinFormsExtensions.Logging.Nuget</RootNamespace>
+    <RootNamespace>XFExtensions.Logging.Nuget</RootNamespace>
     <UsePartialTypes>false</UsePartialTypes>
-    <AssemblyName>RealXamarinFormsExtensions.Logging.Nuget</AssemblyName>
+    <AssemblyName>XFExtensions.Logging.Nuget</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
-    <Owners>real GmbH</Owners>
-    <Copyright>©2018 real GmbH</Copyright>
+    <Owners>Marian Hristov</Owners>
+    <Copyright>©2018 LK Service</Copyright>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -41,9 +41,9 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Logging\RealXamarinFormsExtensions.Logging.csproj">
+    <ProjectReference Include="..\..\Logging\XFExtensions.Logging.csproj">
       <Project>{B7AC70A1-1DCB-4D8F-A079-7E7CA321B01F}</Project>
-      <Name>RealXamarinFormsExtensions.Logging</Name>
+      <Name>XFExtensions.Logging</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.Common.targets" />

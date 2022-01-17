@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:ViewCellTest"
-             xmlns:real="clr-namespace:Real.Xamarin.Forms.Extensions;assembly=RealXamarinFormsExtensions.CollapsableCell"
+             xmlns:lk="clr-namespace:Xamarin.Forms.Extensions;assembly=XamarinFormsExtensions.CollapsableCell"
              x:Class="ViewCellTest.MainPage" Appearing="Handle_Appearing">
     <ContentPage.BindingContext>
         <local:MainPageVM />
@@ -15,14 +15,14 @@
                   ItemsSource="{ Binding ListData }">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <real:CollapsableCell>
-                        <real:CollapsableCell.CollapsedView>
+                    <lk:CollapsableCell>
+                        <lk:CollapsableCell.CollapsedView>
                             <local:TestItemView />
-                        </real:CollapsableCell.CollapsedView>
-                        <real:CollapsableCell.ExpandedView>
+                        </lk:CollapsableCell.CollapsedView>
+                        <lk:CollapsableCell.ExpandedView>
                             <local:TestDetailView />
-                        </real:CollapsableCell.ExpandedView>
-                    </real:CollapsableCell>
+                        </lk:CollapsableCell.ExpandedView>
+                    </lk:CollapsableCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>

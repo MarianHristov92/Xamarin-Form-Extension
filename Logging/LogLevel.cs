@@ -8,7 +8,7 @@
 // // ///   Bastian Noffer	29.06.2018	- file created
 // // ///-----------------------------------------------------------------
 using System;
-namespace Real.Xamarin.Forms.Extensions.Logging
+namespace Xamarin.Forms.Extensions.Logging
 {
     /// <summary>
     /// Specifies the Log level.

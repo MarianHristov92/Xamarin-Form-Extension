@@ -2,7 +2,7 @@
 using Xamarin.Forms;
 using System.Diagnostics;
 
-namespace Real.Xamarin.Forms.Extensions
+namespace Xamarin.Forms.Extensions
 {
     /// <summary>
     /// Provides a Collapsable and Expandable ViewCell consinsting of two sub-views.
@@ -97,7 +97,7 @@ namespace Real.Xamarin.Forms.Extensions
         }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="T:Real.Xamarin.Forms.Extensions.CollapsableCell"/> class.
+        /// Initializes a new instance of the <see cref="T:Xamarin.Forms.Extensions.CollapsableCell"/> class.
         /// </summary>
         public CollapsableCell()
         {

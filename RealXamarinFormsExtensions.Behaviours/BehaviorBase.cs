@@ -1,7 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 
-namespace Real.Xamarin.Forms.Extensions.Behaviors {
+namespace Xamarin.Forms.Extensions.Behaviors {
 	public class BehaviorBase<T> : Behavior<T> where T : BindableObject {
 		public T AssociatedObject { get; private set; }
 

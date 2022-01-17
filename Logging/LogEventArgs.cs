@@ -1,13 +1,13 @@
 ﻿// // ///-----------------------------------------------------------------
 // // ///   Class:          LogEventArgs.cs
 // // ///   Description:    <Description>
-// // ///   Author:         Bastian Noffer                     Date: 31.08.2018
-// // ///   Company:        ©2018 real GmbH
+// // ///   Author:         Marian Hristov                     Date: 31.08.2018
+// // ///   Company:        ©2018 LK Service
 // // ///   Notes:          <Notes>
 // // ///   Revision History:
 // // ///-----------------------------------------------------------------
 using System;
-namespace Real.Xamarin.Forms.Extensions.Logging
+namespace Xamarin.Forms.Extensions.Logging
 {
     public class LogEventArgs : EventArgs
     {

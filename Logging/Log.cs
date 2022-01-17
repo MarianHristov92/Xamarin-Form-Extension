@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.Text;
 
-namespace Real.Xamarin.Forms.Extensions.Logging
+namespace Xamarin.Forms.Extensions.Logging
 {
     public static class Log
     {

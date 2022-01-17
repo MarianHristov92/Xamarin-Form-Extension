@@ -3,7 +3,7 @@ using System.Reflection;
 using System.Windows.Input;
 using Xamarin.Forms;
 
-namespace Real.Xamarin.Forms.Extensions.Behaviors {
+namespace Xamarin.Forms.Extensions.Behaviors {
 	public class Interaction : BehaviorBase<VisualElement> {
 		Delegate eventHandler;
 
